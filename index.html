@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Welcome to the guessing game</title>
+		<link rel="stylesheet" type="text/css" href="design.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>How lucky are you Today!</h1>
+			</header>
+			<div class="box">
+				<form id="myForm">
+					<h3>Please choose a number from 1 to 10:</h3>
+					<input type="number" id="guess1" name="userGuess1" min="1" max="10">
+					<input type="number" id="guess2" name="userGuess2" min="1" max="10">
+					<input type="number" id="guess3" name="userGuess3" min="1" max="10">
+					<button id="subBtn" type="button" onclick="main();">Guess right here</button>
+				</form>
+				<h6 id="surprise">Only press the button once a day or you will be doomed. Choose wisely ;-)</h6>
+			</div>
+			
+		</div>
+		<script src="game.js"></script>
+	</body>
+</html>
